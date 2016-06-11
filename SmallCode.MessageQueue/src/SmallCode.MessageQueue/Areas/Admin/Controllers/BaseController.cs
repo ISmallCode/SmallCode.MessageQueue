@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Filters;
 using SmallCode.MessageQueue.Model;
 using Microsoft.Extensions.DependencyInjection;
+using SmallCode.MessageQueue.Service;
+using SmallCode.MessageQueue.Service.Impl;
+using System.Threading;
 
 namespace SmallCode.MessageQueue.Areas.Admin.Controllers
 {
@@ -21,14 +24,18 @@ namespace SmallCode.MessageQueue.Areas.Admin.Controllers
         public MQContext DB { get { return HttpContext.RequestServices.GetService<MQContext>(); } }
 
         public override void OnActionExecuting(ActionExecutingContext context)
-
         {
+
+            ILogService logService = HttpContext.RequestServices.GetService<ILogService>();
+
             if (HttpContext.User.Identity.IsAuthenticated)
             {
                 CurrentUser = DB.Users.Where(x => x.UserName == HttpContext.User.Identity.Name).SingleOrDefault();
                 ViewBag.UserCurrent = CurrentUser;
             }
             Parameters = new Dictionary<string, object>();
+
+           
             base.OnActionExecuting(context);
         }
 
@@ -36,5 +43,7 @@ namespace SmallCode.MessageQueue.Areas.Admin.Controllers
         {
 
         }
+
+
     }
 }

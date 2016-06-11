@@ -19,6 +19,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmallCode.MessageQueue.Serv
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmallCode.MessageQueue.Infrastructure", "src\SmallCode.MessageQueue.Infrastructure\SmallCode.MessageQueue.Infrastructure.xproj", "{B5D6A4F1-7651-4DA0-8EDC-CFCA8F638C8F}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication1", "src\WebApplication1\WebApplication1.xproj", "{32786BF8-D01A-4918-8AF0-AE7093F4FA9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{B5D6A4F1-7651-4DA0-8EDC-CFCA8F638C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D6A4F1-7651-4DA0-8EDC-CFCA8F638C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D6A4F1-7651-4DA0-8EDC-CFCA8F638C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32786BF8-D01A-4918-8AF0-AE7093F4FA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32786BF8-D01A-4918-8AF0-AE7093F4FA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32786BF8-D01A-4918-8AF0-AE7093F4FA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32786BF8-D01A-4918-8AF0-AE7093F4FA9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,5 +56,6 @@ Global
 		{8A722570-AA1F-4087-8EA1-1C3287046857} = {2AF93D2D-D5A3-4A42-A989-4EEBD2A0C97E}
 		{6A23A996-EC25-4E48-9CD3-A6ED0BF56474} = {2AF93D2D-D5A3-4A42-A989-4EEBD2A0C97E}
 		{B5D6A4F1-7651-4DA0-8EDC-CFCA8F638C8F} = {2AF93D2D-D5A3-4A42-A989-4EEBD2A0C97E}
+		{32786BF8-D01A-4918-8AF0-AE7093F4FA9A} = {2AF93D2D-D5A3-4A42-A989-4EEBD2A0C97E}
 	EndGlobalSection
 EndGlobal

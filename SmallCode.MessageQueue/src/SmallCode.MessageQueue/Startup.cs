@@ -14,6 +14,8 @@ using Microsoft.EntityFrameworkCore;
 using SmallCode.MessageQueue.Model;
 using SmallCode.MessageQueue.Service;
 using SmallCode.MessageQueue.Service.Impl;
+using SmallCode.MessageQueue.Providers;
+using SmallCode.MessageQueue.Middlewares;
 
 namespace SmallCode.MessageQueue
 {
@@ -59,9 +61,11 @@ namespace SmallCode.MessageQueue
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            // loggerFactory.AddProvider(new UnhandledExceptionLoggerProvider(app.ApplicationServices.GetService<ILogService>()));
 
-            app.UseExceptionHandler("/Home/Error");
+            //app.UseExceptionHandler("/Home/Error");
 
+            app.UseTraceLog();
             app.UseStaticFiles();
 
             app.UseSession();
@@ -72,7 +76,6 @@ namespace SmallCode.MessageQueue
                 AutomaticChallenge = true,
                 LoginPath = new PathString("/Account/Login"),
                 AuthenticationScheme = CookieAuthenticationDefaults.AuthenticationScheme,
-
             });
 
 
