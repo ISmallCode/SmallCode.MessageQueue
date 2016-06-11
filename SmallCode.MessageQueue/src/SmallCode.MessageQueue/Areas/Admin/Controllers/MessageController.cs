@@ -27,7 +27,7 @@ namespace SmallCode.MessageQueue.Areas.Admin.Controllers
         {
             service.Remove(id);
             ReturnResult model = new ReturnResult();
-            model.Status = service.IsSuccess ? "ok" : "error";
+            model.Status = service.IsSuccess ? "success" : "fail";
             model.ReturnMsg = service.ReturnMsg;
             return Json(model);
         }

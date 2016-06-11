@@ -12,11 +12,15 @@ using SmallCode.MessageQueue.Filters;
 using SmallCode.MessageQueue.Service;
 using SmallCode.MessageQueue.Model.DataModels.Api;
 using SmallCode.MessageQueue.Model;
+using System.Threading;
+using SmallCode.MessageQueue.Models;
 
 namespace SmallCode.MessageQueue.Areas.Api.Controllers
 {
     public class MessageController : BaseController
     {
+
+
         [Inject]
         public IMessageService messageService { set; get; }
 
@@ -33,8 +37,11 @@ namespace SmallCode.MessageQueue.Areas.Api.Controllers
         [HttpPost]
         public IActionResult Pull([FromBody] MessageRequestModel model)
         {
+
             ReturnJsonResult<Message> result = new ReturnJsonResult<Message>();
+            LockControl.mutex.WaitOne();
             Message message = messageService.Pull(model.Topic);
+            LockControl.mutex.ReleaseMutex();
             result.ReturnMsg = messageService.ReturnMsg;
             result.Status = messageService.IsSuccess ? "ok" : "error";
             result.Result = message;
