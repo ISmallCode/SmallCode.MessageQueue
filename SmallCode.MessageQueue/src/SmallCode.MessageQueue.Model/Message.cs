@@ -15,7 +15,7 @@ namespace SmallCode.MessageQueue.Model
         [ForeignKey("Topic")]
         public Guid TopicId { set; get; }
 
-        public DateTime CraeteDate { set; get; }
+        public DateTime CreateDate { set; get; }
 
         public virtual Topic Topic { set; get; }
     }

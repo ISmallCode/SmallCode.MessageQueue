@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SmallCode.MessageQueue.Service
 {
-    public interface ILogService
+    public interface ILogService:IBaseService
     {
     }
 }

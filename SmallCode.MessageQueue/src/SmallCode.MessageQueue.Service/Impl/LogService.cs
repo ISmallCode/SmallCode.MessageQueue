@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SmallCode.MessageQueue.Service.Impl
 {
-    public class LogService:ILogService
+    public class LogService:BaseService,ILogService
     {
     }
 }

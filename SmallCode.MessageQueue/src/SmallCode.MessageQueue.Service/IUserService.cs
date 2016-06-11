@@ -1,4 +1,5 @@
-﻿using SmallCode.MessageQueue.Model.ServiceModel;
+﻿using SmallCode.MessageQueue.Model;
+using SmallCode.MessageQueue.Model.ServiceModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace SmallCode.MessageQueue.Service
 {
-    public interface IUserService
+    public interface IUserService:IBaseService
     {
-        ServiceResult Save(MessageQueue.Model.User user);
+        void Save(MessageQueue.Model.User user);
+        User Login(string username, string password);
     }
 }

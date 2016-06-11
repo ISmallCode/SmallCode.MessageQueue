@@ -52,7 +52,7 @@ namespace SmallCode.MessageQueue
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ILogService, LogService>();
             services.AddScoped<ITopicService, TopicService>();
-            services.AddScoped<IMessageService, MesssageService>();
+            services.AddScoped<IMessageService, MessageService>();
         }
 
         public async void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)

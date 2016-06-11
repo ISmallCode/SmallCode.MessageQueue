@@ -92,5 +92,8 @@ D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCo
 D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\MQContext.cs
 D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\Topic.cs
 D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\User.cs
+D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\DataModels\ReturnJsonResult.cs
+D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\DataModels\ReturnResult.cs
+D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\DataModels\Api\MessageRequestModel.cs
 D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\Properties\AssemblyInfo.cs
 D:\document\work\frame\SmallCode.MessageQueue\SmallCode.MessageQueue\src\SmallCode.MessageQueue.Model\ServiceModel\ServiceResult.cs
