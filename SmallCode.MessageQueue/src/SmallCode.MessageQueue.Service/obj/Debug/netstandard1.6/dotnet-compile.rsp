@@ -50,6 +50,7 @@
 --reference:C:\Users\乐\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll
 --reference:C:\Users\乐\.nuget\packages\Microsoft.DotNet.InternalAbstractions\1.0.0\lib\netstandard1.3\Microsoft.DotNet.InternalAbstractions.dll
 --reference:C:\Users\乐\.nuget\packages\Microsoft.EntityFrameworkCore\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.dll
+--reference:C:\Users\乐\.nuget\packages\Microsoft.EntityFrameworkCore.Relational\1.0.0\lib\netstandard1.3\Microsoft.EntityFrameworkCore.Relational.dll
 --reference:C:\Users\乐\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll
 --reference:C:\Users\乐\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
 --reference:C:\Users\乐\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.0.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -74,6 +75,8 @@
 --reference:C:\Users\乐\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll
 --reference:C:\Users\乐\.nuget\packages\Microsoft.Win32.Registry\4.0.0\ref\netstandard1.3\Microsoft.Win32.Registry.dll
 --reference:C:\Users\乐\.nuget\packages\Newtonsoft.Json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
+--reference:C:\Users\乐\.nuget\packages\Npgsql\3.1.5\lib\netstandard1.3\npgsql.dll
+--reference:C:\Users\乐\.nuget\packages\Npgsql.EntityFrameworkCore.PostgreSQL\1.0.0\lib\netstandard1.3\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 --reference:C:\Users\乐\.nuget\packages\Remotion.Linq\2.1.1\lib\netstandard1.0\Remotion.Linq.dll
 --reference:C:\Users\乐\.nuget\packages\SmallCode.Pager\1.0.0\lib\netstandard1.6\SmallCode.Pager.dll
 --reference:C:\Users\乐\.nuget\packages\System.AppContext\4.1.0\ref\netstandard1.6\System.AppContext.dll
@@ -87,6 +90,7 @@
 --reference:C:\Users\乐\.nuget\packages\System.ComponentModel.Primitives\4.1.0\ref\netstandard1.0\System.ComponentModel.Primitives.dll
 --reference:C:\Users\乐\.nuget\packages\System.ComponentModel.TypeConverter\4.1.0\ref\netstandard1.5\System.ComponentModel.TypeConverter.dll
 --reference:C:\Users\乐\.nuget\packages\System.Console\4.0.0\ref\netstandard1.3\System.Console.dll
+--reference:C:\Users\乐\.nuget\packages\System.Data.Common\4.1.0\ref\netstandard1.2\System.Data.Common.dll
 --reference:C:\Users\乐\.nuget\packages\System.Diagnostics.Contracts\4.0.1\ref\netstandard1.0\System.Diagnostics.Contracts.dll
 --reference:C:\Users\乐\.nuget\packages\System.Diagnostics.Debug\4.0.11\ref\netstandard1.3\System.Diagnostics.Debug.dll
 --reference:C:\Users\乐\.nuget\packages\System.Diagnostics.DiagnosticSource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll
@@ -107,7 +111,10 @@
 --reference:C:\Users\乐\.nuget\packages\System.Linq.Expressions\4.1.0\ref\netstandard1.6\System.Linq.Expressions.dll
 --reference:C:\Users\乐\.nuget\packages\System.Linq.Queryable\4.0.1\ref\netstandard1.0\System.Linq.Queryable.dll
 --reference:C:\Users\乐\.nuget\packages\System.Net.Http\4.1.0\ref\netstandard1.3\System.Net.Http.dll
+--reference:C:\Users\乐\.nuget\packages\System.Net.NameResolution\4.0.0\ref\netstandard1.3\System.Net.NameResolution.dll
+--reference:C:\Users\乐\.nuget\packages\System.Net.NetworkInformation\4.1.0\ref\netstandard1.3\System.Net.NetworkInformation.dll
 --reference:C:\Users\乐\.nuget\packages\System.Net.Primitives\4.0.11\ref\netstandard1.3\System.Net.Primitives.dll
+--reference:C:\Users\乐\.nuget\packages\System.Net.Security\4.0.0\ref\netstandard1.3\System.Net.Security.dll
 --reference:C:\Users\乐\.nuget\packages\System.Net.Sockets\4.1.0\ref\netstandard1.3\System.Net.Sockets.dll
 --reference:C:\Users\乐\.nuget\packages\System.Net.WebSockets\4.0.0\ref\netstandard1.3\System.Net.WebSockets.dll
 --reference:C:\Users\乐\.nuget\packages\System.ObjectModel\4.0.12\ref\netstandard1.3\System.ObjectModel.dll

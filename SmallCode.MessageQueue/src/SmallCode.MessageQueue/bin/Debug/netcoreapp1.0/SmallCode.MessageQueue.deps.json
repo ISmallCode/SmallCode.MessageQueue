@@ -1517,7 +1517,8 @@
       "SmallCode.MessageQueue.Model/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "1.0.0",
-          "NETStandard.Library": "1.6.0"
+          "NETStandard.Library": "1.6.0",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "1.0.0"
         },
         "runtime": {
           "SmallCode.MessageQueue.Model.dll": {}

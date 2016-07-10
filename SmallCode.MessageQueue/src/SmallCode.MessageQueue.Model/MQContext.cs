@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 namespace SmallCode.MessageQueue.Model
 {
@@ -35,6 +36,7 @@ namespace SmallCode.MessageQueue.Model
             //    e.HasIndex(x => x.Id);
             //    e.HasKey(x => x.TopicId).HasName("Topic");
             //});
+            builder.HasPostgresExtension("uuid-ossp");
             base.OnModelCreating(builder);
         }
 
