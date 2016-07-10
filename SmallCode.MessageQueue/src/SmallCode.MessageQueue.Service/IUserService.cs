@@ -10,7 +10,7 @@ namespace SmallCode.MessageQueue.Service
 {
     public interface IUserService:IBaseService
     {
-        void Save(MessageQueue.Model.User user);
+        void Save(User user);
         User Login(string username, string password);
         PagedList<User> GetListByPage(string userName, int pageIndex, int pageSize);
         User GetUserById(Guid? id);

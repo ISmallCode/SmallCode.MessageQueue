@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using System.Web;
-using System.Web.Http;
 using SmallCode.MessageQueue.Model.DataModels;
 using System.Net.Http;
 using System.Net;

@@ -7,7 +7,7 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>6a23a996-ec25-4e48-9cd3-a6ed0bf56474</ProjectGuid>
+    <ProjectGuid>a0e31559-a8f4-4c2b-831f-3457537d7a22</ProjectGuid>
     <RootNamespace>SmallCode.MessageQueue.Service</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
